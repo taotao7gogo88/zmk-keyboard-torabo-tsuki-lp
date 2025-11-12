@@ -18,6 +18,31 @@
             bindings = <&mkp RCLK>;
             key-positions = <34 33>;
         };
+
+        browser_back {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <58 57>;
+        };
+
+        browser_forward {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <59 60>;
+        };
+
+        press_J {
+            bindings = <&kp J>;
+            key-positions = <32 33>;
+        };
+
+        browser_back2 {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <46 47>;
+        };
+
+        browser_forward2 {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <48 47>;
+        };
     };
 
     keymap {
