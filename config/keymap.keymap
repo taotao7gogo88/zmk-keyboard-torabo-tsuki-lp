@@ -43,6 +43,16 @@
             bindings = <&kp LG(RIGHT)>;
             key-positions = <48 47>;
         };
+
+        page_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <33 20>;
+        };
+
+        page_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <33 46>;
+        };
     };
 
     keymap {
